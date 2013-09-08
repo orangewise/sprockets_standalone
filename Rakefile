@@ -5,6 +5,7 @@ require 'logger'
 require 'fileutils'
 require 'uglifier'
 require 'sass'
+require 'asset_sync'
 
 Bundler.require
 # File.dirname(__FILE__)
@@ -43,4 +44,11 @@ task :compile do
     #   asset.write_to(BUILD_DIR.join(prefix, realname))
     # end
   end
+end
+
+
+task :sync do
+  LOGGER.debug("Sync assets with AWS")
+  asset_sync = AssetSync
+
 end
