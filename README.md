@@ -19,17 +19,19 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 			│   ├── javascripts
 			│   │   └── all.js
 			│   └── stylesheets
-			│       ├── all.css
+			│       └── all.css
 			└── src
 			    ├── javascripts
 			    │   └── all.js
+			    |   └── jquery
+			    |       └── jquery-1.10.2.min.js
 			    └── stylesheets
 			        └── all.css
 
 
 # Example all.js
 
-	//= require bootstrap/index
+	//= require jquery/jquery-1.10.2.min
 	
 # Example all.css
 
