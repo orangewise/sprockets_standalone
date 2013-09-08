@@ -8,23 +8,23 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 
 # Directory structure
 
-.
-├── sprockets_standalone
-|		└── src
-|		├── Gemfile
-|		├── Gemfile.lock
-|		├── Rakefile
-└── assets
-		├── build
-		│   ├── javascripts
-		│   │   └── all.js
-		│   └── stylesheets
-		│       ├── all.css
-		└── src
-		    ├── javascripts
-		    │   └── all.js
-		    └── stylesheets
-		        └── all.css
+	.
+	├── sprockets_standalone
+	|		└── src
+	|		├── Gemfile
+	|		├── Gemfile.lock
+	|		├── Rakefile
+	└── assets
+			├── build
+			│   ├── javascripts
+			│   │   └── all.js
+			│   └── stylesheets
+			│       ├── all.css
+			└── src
+			    ├── javascripts
+			    │   └── all.js
+			    └── stylesheets
+			        └── all.css
 
 
 # Example all.js
