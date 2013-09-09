@@ -9,8 +9,7 @@ require 'asset_sync'
 require 'yaml'
 
 Bundler.require
-# File.dirname(__FILE__)
-# ROOT        = File.dirname(__FILE__).parent()
+
 ROOT        = Pathname(File.dirname(__FILE__)).parent().join("assets")
 LOGGER      = Logger.new(STDOUT)
 BUNDLES     = %w( all.css all.js )
