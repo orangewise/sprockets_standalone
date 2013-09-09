@@ -1,25 +1,46 @@
 # Sprockets Standalone
 
+Using Sprockets and AssetSync standalone, so it can be in combination with a PHP website :) 
+
 Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-railsrack-project/
+
+
+
 
 # Usage
 
-	bundle exec rake compile
+	bundle exec rake sprockets:compile environment=dev
+	
+	or
+	
+	bundle exec rake sync:assets environment=dev
+	
+
+
+
 
 # Directory structure
 
 	.
 	├── sprockets_standalone
-	|		└── src
+	|		└── config
+	|       └── asset_sync.yml
 	|		├── Gemfile
 	|		├── Gemfile.lock
 	|		├── Rakefile
 	└── assets
-			├── build
-			│   ├── javascripts
-			│   │   └── all.js
-			│   └── stylesheets
-			│       └── all.css
+			├── dev
+			|   └── build
+			│        ├── javascripts
+			│        │   └── all.js
+			│        └── stylesheets
+			│            └── all.css
+			├── test
+			|   └── build
+			|        ├── ...
+			├── production
+			|   └── build
+			|        ├── ...
 			└── src
 			    ├── javascripts
 			    │   └── all.js
@@ -29,9 +50,16 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 			        └── all.css
 
 
+
+
+
+
 # Example all.js
 
 	//= require jquery/jquery-1.10.2.min
+	
+	
+	
 	
 # Example all.css
 
