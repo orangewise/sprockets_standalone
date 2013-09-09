@@ -44,6 +44,8 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 			|        ├── ...
 			|        .
 			└── src
+			    ├── images
+			    │   └── ...
 			    ├── javascripts
 			    │   └── all.js
 			    |   └── jquery
