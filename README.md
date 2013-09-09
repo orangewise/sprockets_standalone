@@ -1,6 +1,6 @@
 # Sprockets Standalone
 
-Using Sprockets and AssetSync standalone, so it can be in combination with a PHP website :) 
+Using Sprockets and AssetSync standalone, so it can be used in combination with a PHP website :) 
 
 Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-railsrack-project/
 
