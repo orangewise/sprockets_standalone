@@ -27,7 +27,7 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 	|       └── asset_sync.yml
 	|		├── Gemfile
 	|		├── Gemfile.lock
-	|		├── Rakefile
+	|		└── Rakefile
 	└── assets
 			├── dev
 			|   └── build
@@ -38,9 +38,11 @@ Based on http://www.simonecarletti.com/blog/2011/09/using-sprockets-without-a-ra
 			├── test
 			|   └── build
 			|        ├── ...
+			|        .
 			├── production
 			|   └── build
 			|        ├── ...
+			|        .
 			└── src
 			    ├── javascripts
 			    │   └── all.js
