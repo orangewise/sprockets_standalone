@@ -12,7 +12,7 @@ Bundler.require
 
 ROOT        = Pathname(File.dirname(__FILE__)).parent().join("assets")
 LOGGER      = Logger.new(STDOUT)
-BUNDLES     = %w( all.css all.js )
+BUNDLES     = %w( all.css all.js html5.js )
 TARGET_ENV  = ENV['environment']||"dev"
 BUILD_DIR   = ROOT.join("#{TARGET_ENV}/build")
 SOURCE_DIR  = ROOT.join("src")
